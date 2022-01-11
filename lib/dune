@@ -1,4 +1,5 @@
 (library
  (name duniverse_lib)
+ (public_name opam-monorepo.lib)
  (libraries base bos fmt logs ocaml-version opam-0install opam-file-format
    opam-format sexplib stdext threads uri))

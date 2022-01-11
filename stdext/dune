@@ -1,2 +1,3 @@
 (library
- (name stdext))
+ (name stdext)
+ (public_name opam-monorepo.stdext))

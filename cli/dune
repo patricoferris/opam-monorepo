@@ -1,4 +1,5 @@
 (library
  (name duniverse_cli)
+ (public_name opam-monorepo)
  (libraries duniverse_lib fmt.cli fmt.tty logs.cli logs.fmt cmdliner
    dune-build-info ocaml-version opam-state))
